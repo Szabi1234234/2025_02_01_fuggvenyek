@@ -4,17 +4,6 @@
 #   2 tetszőleges paraméter: háromszőg, 3 vagy több tetszőleges paraméter: sokszög)!
 
 
-# parameterek = []
-# def kerulet(a, *args):
-#      for szam in args:
-#         print(input(f"Enter number {i + 1}: ")) 
-#         if i < 0:
-#             parameterek.append(i)
-        
-# print(parameterek)
-
-# kerulet(5, [2, 3])
-# print(parameterek)
 def kerulet(elso_param, *opcionalis_param):
     if len(opcionalis_param) == 0:
         # Négyzet (minden oldal egyenlő)
